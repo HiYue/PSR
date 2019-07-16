@@ -29,3 +29,39 @@
 - 说明: 它建议了如何根据PHP文件路径进行自动加载类的规范。本建议具备完全的可操作性，除了PSR-0，任何其他自动加载规范外都可以使用它。 此PSR还描述了根据规范，如何组织目录结构，以便自动加载文件的方法。
 - `英文原文` It describes a specification for autoloading classes from file paths. It is fully interoperable, and can be used in addition to any other autoloading specification, including PSR-0. This PSR also describes where to place files that will be auto loaded according to the specification
 - <a target="_blank" href="https://www.php-fig.org/psr/psr-4/">官网链接</a>
+
+### PSR-5 (依然是草案阶段)
+- 名称: PHPDoc的撰写标准建议
+- 说明: 此PSR的主要目的是提供PHPDoc标准的完整和正式定义。 这个PSR与其前身，phpDocumentor 1.x相关PHPDoc标准不同，本建议可以为PHP语言中的新功能提供支持，并解决其前身的一些缺点。
+- `英文原文` It describes a specification for autoloading classes from file paths. It is fully interoperable, and can be used in addition to any other autoloading specification, including PSR-0. This PSR also describes where to place files that will be auto loaded according to the specification
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-5/">官网链接</a>
+
+### PSR-6
+- 名称: 缓存库的标准建议
+- 说明: 此PSR的目标是允许开发人员创建可以集成到现有框架和系统中的缓存库，而无需自定义开发
+- `英文原文` The goal of this PSR is to allow developers to create cache-aware libraries that can be integrated into existing frameworks and systems without the need for custom development
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-6/">官网链接</a>
+
+### PSR-7
+- 名称: HTTP消息接口建议
+- 说明: 它描述了用于表示HTTP消息的通用接口，如RFC 7230和RFC 7231中所述，以及用于HTTP消息的URI，如RFC 3986中所述
+- `英文原文` It describes common interfaces for representing HTTP messages as described in RFC 7230 and RFC 7231, and URIs for use with HTTP messages as described in RFC 3986
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-7/">官网链接</a>
+
+### PSR-11
+- 名称: 依赖注入容器的通用接口建议
+- 说明: 它描述了依赖注入容器的通用接口。 目标是为任何框架和库在利用容器来获取对象实例和参数时，有一套标准化的接口
+- `英文原文` It describes a common interface for dependency injection containers. The goal is to standardize how frameworks and libraries make use of a container to obtain objects and parameters (called entries in the rest of this document)
+- <a target="_blank" href="https://github.com/container-interop/fig-standards/blob/master/proposed/container.md">官网链接</a>
+
+### PSR-12 (依然是草案阶段)
+- 名称: PHP代码编写风格的扩展版建议（草案）
+- 说明: 它继承并扩展了`PSR-2`，对编码风格提供更加完善的建议
+- `英文原文` It extends, expands and replaces PSR-2, the coding style guide and requires adherence to PSR-1, the basic coding standard
+- <a target="_blank" href="https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md">官网链接</a>
+
+### PSR-13
+- 名称: 超链接的建议
+- 说明: 它描述了用于生成超链接的PHP的类应该实现的接口
+- `英文原文` It describes common interfaces for representing a hypermedia link
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-13/">官网链接</a>
