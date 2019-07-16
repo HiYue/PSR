@@ -1,4 +1,6 @@
 # PSR
+为什么了解并学习PSR? 它提供了一个参考，就像设计模式一样，让我们可以去体会大神们的思路，从而写出优雅且具有通用行的代码。
+
 - `摘自维基百科`
 - `PHP标准建议书(PSR)` 是由PHP Framework Interop Group发布的关于PHP编程语言的若干规范, 它尝试为PHP中的编程概念提供标准化的解决方案, 但并不是强制的.
 - `PSR`目的是实现组件之间的互操作性，并为实现最佳编程和测试实践的成熟概念提供通用技术基础. 由于不同开发者所撰写的各种PHP程序库或组件，由于设计思路各有千秋，很多情况下，使用这些库的开发人员，调用不同库的功能时，会非常的麻烦，需要做很多的转换或者适配的工作。为了解决这个痛点，在几个php框架的作者的倡导下，产生了`PSR`
@@ -65,3 +67,39 @@
 - 说明: 它描述了用于生成超链接的PHP的类应该实现的接口
 - `英文原文` It describes common interfaces for representing a hypermedia link
 - <a target="_blank" href="https://www.php-fig.org/psr/psr-13/">官网链接</a>
+
+### PSR-14
+- 名称: 事件管理器类的建议
+- 说明: 它描述了针对事件的转发/处理是的标准接口
+- `英文原文` It describes common interfaces for dispatching and handling events
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-14/">官网链接</a>
+
+### PSR-15
+- 名称: HTTP服务器的请求对象处理的建议
+- 说明: 它描述了针对 http请求的处理以及处理期间使用的中间件组件的标准接口
+- `英文原文` It describes common interfaces for HTTP server request handlers and HTTP server middleware components that use HTTP messages
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-15/">官网链接</a>
+
+### PSR-16
+- 名称: 简单的缓存库的建议
+- 说明: 它描述了针对 简单但是具备扩展性的缓存库与缓存驱动库 的标准接口
+- `英文原文` It describes a simple yet extensible interface for a cache item and a cache driver
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-16/">官网链接</a>
+
+### PSR-17
+- 名称: HTTP相关的工厂对象的建议
+- 说明: 它描述了 用于创建和`PSR-7`兼容的http对象的工厂类 的标准接口
+- `英文原文` It describes a common standard for factories that create PSR-7 compliant HTTP objects
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-17/">官网链接</a>
+
+### PSR-18
+- 名称: HTTP相关的工厂对象的建议
+- 说明: 它描述了一套的标准接口，用来实现发送http请求与接收http响应的类
+- `英文原文` It describes a common interface for sending HTTP requests and receiving HTTP responses.
+- <a target="_blank" href="https://www.php-fig.org/psr/psr-18/">官网链接</a>
+
+### PSR-19（草案）
+- 名称: PHPDoc文档标签的建议（草案）
+- 说明: 它描述了一组完整的用于PHPDoc的标签
+- `英文原文` It provides a complete catalog of tags in the PHPDoc standard.
+- <a target="_blank" href="https://github.com/php-fig/fig-standards/blob/master/proposed/phpdoc-tags.md">官网链接</a>
