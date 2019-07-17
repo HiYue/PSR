@@ -78,7 +78,7 @@
 - 名称: HTTP服务器的请求对象处理的建议
 - 说明: 它描述了针对 http请求的处理以及处理期间使用的中间件组件的标准接口
 - `英文原文` It describes common interfaces for HTTP server request handlers and HTTP server middleware components that use HTTP messages
-- [官网链接](https://www.php-fig.org/psr/psr-15)
+- [官网链接](https://www.php-fig.org/psr/psr-15) | [中文建议书](./psr-15/标准建议书.md) | [建议书解读与应用](./psr-15/标准建议书解读.md)
 
 ### PSR-16
 - 名称: 简单的缓存库的建议
