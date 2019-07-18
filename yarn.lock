@@ -1730,6 +1730,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000980, caniuse-lite@^1.0.30000984:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000984.tgz#dc96c3c469e9bcfc6ad5bdd24c77ec918ea76fe0"
   integrity sha512-n5tKOjMaZ1fksIpQbjERuqCyfgec/m9pferkFQbLmWtqLUdmt12hNhjSwsmPdqeiG2NkITOQhr1VYIwWSAceiA==
 
+carbon-grid@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/carbon-grid/-/carbon-grid-1.1.2.tgz#e24289b0733b123c67ad6b82304c7f887386f9c5"
+  integrity sha512-IeXbqqAyLO4h8J4SCHzBc9nfAbc0yev8mXzDrOZIrjjXB627Uc19qYMtTDOL7FJCzaRg7JZv15nGaKBAzzTH5A==
+
 caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
@@ -2607,6 +2612,11 @@ electron-to-chromium@^1.3.191:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.193.tgz#de9b89959288070bffb14557daf8cf9f75b2caf8"
   integrity sha512-WX01CG1UoPtTUFaKKwMn+u8nJ63loP6hNxePWtk1pN8ibWMyX1q6TiWPsz1ABBKXezvmaIdtP+0BwzjC1wyCaw==
 
+elevator.js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/elevator.js/-/elevator.js-1.0.1.tgz#97ebb45db5093cbadeb0a307bb40cc8264673d8c"
+  integrity sha512-3+jUQIrUxDGjhF7cyrxi+NcqaDkYhQ+Y2UfVqozYMLxAY1i9l2ZjLWzPlFMFc4nx3SPYf9EPHEn1zUqpIWlXng==
+
 elliptic@^6.0.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.0.tgz#2b8ed4c891b7de3200e14412a5b8248c7af505ca"
@@ -3015,6 +3025,11 @@ follow-redirects@^1.0.0:
   dependencies:
     debug "^3.2.6"
 
+fontfaceobserver@^2.0.13:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/fontfaceobserver/-/fontfaceobserver-2.1.0.tgz#e2705d293e2c585a6531c2a722905657317a2991"
+  integrity sha512-ReOsO2F66jUa0jmv2nlM/s1MiutJx/srhAe2+TE8dJCMi02ZZOcCTxTCQFr3Yet+uODUtnr4Mewg+tNQ+4V1Ng==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -3138,6 +3153,11 @@ get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
+
+get-youtube-id@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/get-youtube-id/-/get-youtube-id-1.0.1.tgz#adb6f475e292d98f98ed5bfb530887656193e157"
+  integrity sha512-5yidLzoLXbtw82a/Wb7LrajkGn29BM6JuLWeHyNfzOGp1weGyW4+7eMz6cP23+etqj27VlOFtq8fFFDMLq/FXQ==
 
 getpass@^0.1.1:
   version "0.1.7"
@@ -3642,6 +3662,11 @@ internal-ip@^4.3.0:
   dependencies:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
+
+intersection-observer@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/intersection-observer/-/intersection-observer-0.5.1.tgz#e340fc56ce74290fe2b2394d1ce88c4353ac6dfa"
+  integrity sha512-Zd7Plneq82kiXFixs7bX62YnuZ0BMRci9br7io88LwDyF3V43cQMI+G5IiTlTNTt+LsDUppl19J/M2Fp9UkH6g==
 
 invariant@^2.2.2:
   version "2.2.4"
@@ -4247,6 +4272,13 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+mappet@^4.0.0:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/mappet/-/mappet-4.3.1.tgz#b614526e966b6811cf0cd256a0ca31ad4c5649a8"
+  integrity sha512-WE23gUXtaiIRR/DLpWiCVAgbulHrvhwx1RKike7CwFz0v2WxwVe2fM7pU7ndI3jPtGCCRupCDUNM+QOmIaopGw==
+  dependencies:
+    lodash "^4.17.11"
 
 markdown-it-anchor@^5.0.2:
   version "5.2.4"
@@ -6568,6 +6600,11 @@ thunky@^1.0.2:
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.0.3.tgz#f5df732453407b09191dae73e2a8cc73f381a826"
   integrity sha512-YwT8pjmNcAXBZqrubu22P4FYsh2D4dxRmnWBOL8Jk8bUcRUtc5326kx32tuTmFDAZtLOGEVNl8POAR8j896Iow==
 
+time-ago@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/time-ago/-/time-ago-0.2.1.tgz#4abcb7fb8c8cbb1efd9575ab8b30ec699e8e05a9"
+  integrity sha512-fQ3WQ5yPBoNefBgITR+kMnd5aWiKYhBNSgQH3FwpJgDCaVEmju7rWyP+Rk52KyQbRwQEnw3ox2yxcS4yMxgP+g==
+
 timers-browserify@^2.0.4:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.10.tgz#1d28e3d2aadf1d5a5996c4e9f95601cd053480ae"
@@ -6904,6 +6941,21 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
 
+vue-announcer@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vue-announcer/-/vue-announcer-1.0.4.tgz#0f64026822e4292c33f7b2ba45e61dbb80a85896"
+  integrity sha512-5FZVdIMgkuzz9tDPvIgl7znOTfQ++v3lFKRvudUyScfc8Y3RB+74xEb32oGNcfLFROxbgd/hp7fG8zdKspIPNg==
+
+vue-disqus@^3.0.4:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/vue-disqus/-/vue-disqus-3.0.5.tgz#8d0dd5cabdba7c47f82d129d2907a64366842fa8"
+  integrity sha512-T3Y68lXf5W2lYt6j4Y3kZ4opLPH0EAzqriy11MS4D4Q2+UN0tFuUXeYP1MxfvdyaCEboXSM6CUswxsULuNV70Q==
+
+vue-global-events@^1.0.3:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/vue-global-events/-/vue-global-events-1.1.2.tgz#aae6e221d095ab6fc82ce5d3a40ba3b9ebdfaab7"
+  integrity sha512-iZv/IBUNzVkwN+OraP6bxvcy/yld3snrfK8M5np5afAstFEPMj78xj+slereYycNQ7/W+pdYkSDKoK7hjT5BPw==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
@@ -6984,6 +7036,23 @@ vuepress-plugin-container@^2.0.0:
   integrity sha512-SrGYYT7lkie7xlIlAVhn+9sDW42MytNCoxWL/2uDr+q9wZA4h1uYlQvfc2DVjy+FsM9PPPSslkeo/zCpYVY82g==
   dependencies:
     markdown-it-container "^2.0.0"
+
+vuepress-theme-ktquez@^0.2.18:
+  version "0.2.18"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-ktquez/-/vuepress-theme-ktquez-0.2.18.tgz#b3d9d4d739f91e26b4950afcf54527f068098a9e"
+  integrity sha512-2y+yCzNtkDTGIFEAuCQbbnaMUSZd2MzIJcXmkj+Eqz9TQPI3siAzibWK94dGti6f0+1Wef6XLZmZQOn0kvi/+A==
+  dependencies:
+    carbon-grid "^1.1.2"
+    elevator.js "^1.0.1"
+    fontfaceobserver "^2.0.13"
+    get-youtube-id "^1.0.0"
+    intersection-observer "^0.5.0"
+    mappet "^4.0.0"
+    nprogress "^0.2.0"
+    time-ago "^0.2.1"
+    vue-announcer "^1.0.2"
+    vue-disqus "^3.0.4"
+    vue-global-events "^1.0.3"
 
 vuepress@^1.0.2:
   version "1.0.2"
