@@ -34,11 +34,11 @@ meta:
 - `英文原文` It describes a common interface for logging libraries
 - [官网链接](https://www.php-fig.org/psr/psr-3)
 
-### PSR-4
+### [PSR-4](./psr-4/)
 - 名称: PHP文件自动加载机制的建议
 - 说明: 它建议了如何根据PHP文件路径进行自动加载类的规范。本建议具备完全的可操作性，除了PSR-0，任何其他自动加载规范外都可以使用它。 此PSR还描述了根据规范，如何组织目录结构，以便自动加载文件的方法。
 - `英文原文` It describes a specification for autoloading classes from file paths. It is fully interoperable, and can be used in addition to any other autoloading specification, including PSR-0. This PSR also describes where to place files that will be auto loaded according to the specification
-- [官网链接](https://www.php-fig.org/psr/psr-4)
+- [官网链接](https://www.php-fig.org/psr/psr-4) | [中文建议书](./psr-4/标准建议书.md) | [建议书解读与应用](./psr-4/标准建议书解读.md)
 
 ### PSR-5 (依然是草案阶段)
 - 名称: PHPDoc的撰写标准建议
@@ -52,11 +52,11 @@ meta:
 - `英文原文` The goal of this PSR is to allow developers to create cache-aware libraries that can be integrated into existing frameworks and systems without the need for custom development
 - [官网链接](https://www.php-fig.org/psr/psr-6)
 
-### PSR-7
+### [PSR-7](./psr-7/)
 - 名称: HTTP消息接口建议
 - 说明: 它描述了用于表示HTTP消息的通用接口，如RFC 7230和RFC 7231中所述，以及用于HTTP消息的URI，如RFC 3986中所述
 - `英文原文` It describes common interfaces for representing HTTP messages as described in RFC 7230 and RFC 7231, and URIs for use with HTTP messages as described in RFC 3986
-- [官网链接](https://www.php-fig.org/psr/psr-7)
+- [官网链接](https://www.php-fig.org/psr/psr-7) | [中文建议书](./psr-7/标准建议书.md) | [建议书解读与应用](./psr-7/标准建议书解读.md)
 
 ### PSR-11
 - 名称: 依赖注入容器的通用接口建议
@@ -82,7 +82,7 @@ meta:
 - `英文原文` It describes common interfaces for dispatching and handling events
 - [官网链接](https://www.php-fig.org/psr/psr-14)
 
-### PSR-15
+### [PSR-15](./psr-15/)
 - 名称: HTTP服务器的请求对象处理的建议
 - 说明: 它描述了针对 http请求的处理以及处理期间使用的中间件组件的标准接口
 - `英文原文` It describes common interfaces for HTTP server request handlers and HTTP server middleware components that use HTTP messages
