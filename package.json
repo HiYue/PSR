@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "generate-robotstxt": "^7.1.0",
     "vuepress": "^1.0.2"
   },
   "scripts": {
@@ -7,6 +8,7 @@
     "docs:build": "vuepress build"
   },
   "dependencies": {
-    "vuepress-theme-ktquez": "^0.2.18"
+    "vuepress-plugin-robots": "^1.0.1",
+    "vuepress-plugin-sitemap": "^2.1.2"
   }
 }

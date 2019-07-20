@@ -27,5 +27,18 @@ module.exports = {
         //Git 仓库和编辑链接
         repo: 'HiYue/PSR',
         repoLabel: 'Yue@Github'
-    }
+    },
+    plugins:[
+        [
+            'vuepress-plugin-sitemap',
+            {hostname: 'https://psr.yue.dev'}
+        ],
+        [
+            'robots',
+            {
+                allowAll: true,
+                host: 'https://psr.yue.dev'
+            }
+        ]
+    ]
 }
