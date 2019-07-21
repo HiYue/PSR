@@ -37,8 +37,25 @@ module.exports = {
             'robots',
             {
                 allowAll: true,
-                host: 'https://psr.yue.dev'
+                host: 'https://psr.yue.dev/'
             }
-        ]
+        ],
+        '@vuepress/back-to-top',
+        [
+            'contact-us',
+            {
+                email: 'hi@yue.dev',
+                labelLanguage: 'cn',
+                // emailSenderApi: '12345678'
+            }
+        ],
+        // [
+        //     require('./plugins/contact-us'),
+        //     {
+        //         email: 'hi@yue.dev',
+        //         labelLanguage: 'cn',
+        //         // emailSenderApi: '12345678'
+        //     }
+        // ],
     ]
 }

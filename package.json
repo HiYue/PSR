@@ -1,6 +1,9 @@
 {
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "generate-robotstxt": "^7.1.0",
+    "sass-loader": "^7.1.0",
     "vuepress": "^1.0.2"
   },
   "scripts": {
@@ -8,6 +11,10 @@
     "docs:build": "vuepress build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "vuepress-plugin-contact-us": "^1.0.2",
     "vuepress-plugin-robots": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.1.2"
   }
