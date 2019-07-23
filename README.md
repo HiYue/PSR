@@ -6,6 +6,8 @@ meta:
     content: php psr规范 建议书 解读 分析
 ---
 
+I’m sure you’re busy, but I’d appreciate if you could take a moment and look over the invoice when you get a chance. Please let me know if you have any questions.
+
 # PSR - PHP标准建议书 规范 解读 分析
 为什么了解并学习PSR? 它提供了一个参考，就像设计模式一样，让我们可以去体会大神们的思路，从而写出优雅且具有通用性的代码。
 
