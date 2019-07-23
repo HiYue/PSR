@@ -16,9 +16,10 @@ module.exports = {
             {
                 text: 'PSR规范列表',
                 items: [
-                    {text: 'PSR-15', link: '/psr-15/'},
-                    {text: 'PSR-4', link: '/psr-4/'},
-                    {text: 'PSR-7', link: '/psr-7/'},
+                    {text: 'PSR-3日志接口规范', link: '/psr-15/'},
+                    {text: 'PSR-4文件自动加载规范', link: '/psr-4/'},
+                    {text: 'PSR-7 HTTP消息接口规范', link: '/psr-7/'},
+                    {text: 'PSR-15 HTTP服务器的请求对象接口', link: '/psr-15/'},
                 ]
             }
         ],
@@ -28,6 +29,12 @@ module.exports = {
         repo: 'HiYue/PSR',
         repoLabel: 'Yue@Github'
     },
+    // thirdPartyComponents: {
+    //     fontAwesomeIcons:{
+    //         regular:['address-card','file-audio'],  // Regular font awesome icon keys here
+    //         solid:['battery-quarter']               // Solid font awesome icon keys here
+    //     }
+    // },
     plugins:[
         [
             'vuepress-plugin-sitemap',
