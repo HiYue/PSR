@@ -2703,9 +2703,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.191:
-  version "1.3.197"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.197.tgz#9460310733423ac72869d4dd99d7fb0389faa40b"
-  integrity sha512-SfD7WfmueKrtKeHUESLczuANgnpdnfrSz3ZzerLdtmZf2UBZmAB3z9Q525zI5p3n9I7ii/lllUlyKHm2pIG7QQ==
+  version "1.3.198"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.198.tgz#932f74a9854eeb45436764c9c26433cf683fde7a"
+  integrity sha512-2GcPd1bkU8EGPa3AhxzPswbNvh5wgK4/8r3fg+sSVyVlCWaN9Tq+tVkJLktMZIcrHiZF0vJpnktfoYXFTvjCVg==
 
 elliptic@^6.0.0:
   version "6.5.0"
@@ -7341,10 +7341,10 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-contact-us@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-contact-us/-/vuepress-plugin-contact-us-1.0.2.tgz#caa888b4561f57ca307794fc7f955536d71bdf4c"
-  integrity sha512-2E+2ceukiGmjA0ZesvqShXdCtnA7ITiMGHg813UynOx1OZ10BFbkgH328SAcgiXrVho0DgMbCGe9PSmgi3YaUQ==
+vuepress-plugin-contact-us@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-contact-us/-/vuepress-plugin-contact-us-1.0.3.tgz#0e98ca9e16b0ee908a61170d851bd47dbe1c5fbe"
+  integrity sha512-EjRKVkGeuVITApci3ZTSygzP2F+jfJQ1N4ZchhoV/irDQdXN3tuZiFqnP74au05mrcVg1Kwj9AkMc4LgvDjrCg==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.19"
     "@fortawesome/free-solid-svg-icons" "^5.9.0"
